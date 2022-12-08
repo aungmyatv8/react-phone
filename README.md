@@ -1,0 +1,1 @@
+လိုအပ်တဲ့ dependencies သွင်းပေး ပါ Login.js မှာ submit code function က otp ထည့်ပြီး ရင် user information ယူထားပါတယ် အဲထဲမှာ firebase ရဲ့ id token ယူတဲ့ function ရေးပြီး ရလာတဲ့ token ကို api request တဲ့နေရာသုံးရမှာပါ လိုအပ်တဲ့ files က pages -> login-style.js, Login.js, logo.svg firebase.js component -> \*
