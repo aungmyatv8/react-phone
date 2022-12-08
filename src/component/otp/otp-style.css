@@ -1,0 +1,42 @@
+.otp-container {
+  display: flex;
+  flex-flow: column;
+  /* height: 100%; */
+  align-items: space-around;
+  flex-shrink: 1;
+  justify-content: center;
+}
+
+.userInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  /* background-color: green; */
+  /* flex-wrap: nowrap; */
+}
+
+.otp-input {
+  margin: 10px;
+  height: 50px;
+  width: 30px;
+
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  outline: none;
+  /* width: "16%"; */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
